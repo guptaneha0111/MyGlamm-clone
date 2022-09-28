@@ -12,12 +12,12 @@ getdata();
 
 url1="https://js211nehagupta.herokuapp.com/api/moisture"
 let moisture= async () =>{
-    let res= await fetch(url1);
-    res= await res.json();
-    appenddata(res)
-    console.log("res:",res);
+    let res1= await fetch(url1);
+    res1= await res1.json();
+    appenddata(res1)
+    console.log("res1:",res1);
 }
-moisture();
+
 
 
 
@@ -34,10 +34,10 @@ data.forEach(function (el)
     let txtdiv=document.createElement("div");
     
      txtdiv.setAttribute("id", "txtdiv");
-    // div.addEventListener("click",function ()
-    // {
-    //     showdata(el);
-    // })
+    txtdiv.addEventListener("click",function ()
+    {
+        showdata(el);
+    })
 
     let cdiv=document.createElement("div");
     cdiv.setAttribute("id", "cdiv");
@@ -60,6 +60,12 @@ data.forEach(function (el)
   skinproduct.append(cdiv);
 
 })
+}
+
+function showdata(cdiv){
+console.log(cdiv);
+localStorage.setItem("addproduct",JSON.stringify(cdiv));
+location.href="shopping.html";
 }
 
 
