@@ -22,13 +22,14 @@ function fun1(){
 
 
 
-
+//single select product append
 let data= JSON.parse(localStorage.getItem("addproduct"));
 console.log(data);
 
 let shoppingobj= document.getElementById("shopping_obj");
 function appenddata1(data)
 {
+    
     let imgdiv=document.createElement("div");
   
 
@@ -64,7 +65,7 @@ function appenddata1(data)
 }
 appenddata1(data)
 
-
+//add to cart
 let cart=JSON.parse(localStorage.getItem("cartpage")) || [];
 function addtocart(cdiv){
     cart.push(cdiv);
@@ -77,18 +78,19 @@ appenddata2(cart)
 
 
 
-//append under cart container
-
-// let cartdata=JSON.parse(localStorage.getItem("cartpage")) || [];
-console.log(cart)
+//append under cart container(add to cart product append)
 let containercart=document.querySelector(".cart_content")
+let totalprice=document.querySelector(".total_price");
 
 function appenddata2(cartdata)
 {
+    let total=0;
     containercart.innerHTML="";
 cartdata.forEach(function (el,index)
 {
- 
+
+    total+=Number(el.price)
+
     let cdiv1=document.createElement("div");
    cdiv1.setAttribute("class", "cart_box");
 
@@ -111,33 +113,30 @@ cartdata.forEach(function (el,index)
    let price=document.createElement("p");
    price.innerText=el.price;
 
-   let input1=document.createElement("input");
-   input1.setAttribute("class", "card_quantity")
-   input1.type="number";
-   input1.value="1";
- 
-   cdiv2.append(name,price,input1)
+//    let input1=document.createElement("input");
+//    input1.setAttribute("class", "card_quantity")
+//    input1.type="number";
+//    input1.value="1";
+  
+    cdiv2.append(name,price)
   cdiv1.append(image,cdiv2,icon)
+  
   containercart.append(cdiv1);
 
-})
+ })
+totalprice.innerText=total;
 }
 
 appenddata2(cart)
 
-// function update(){
-//     deletecart(index);
-//     updatetotal();
-// }
-
 function deletecart(index){
     cart.splice(index,1);
     localStorage.setItem("cartpage", JSON.stringify(cart));
-    // update()
-    appenddata2(cart)
+     appenddata2(cart)
 }
 
-// function updatetotal(){
-//     let cartboxes=document.querySelectorAll(".cart_box")
-   
-// }
+let checkout_address=document.querySelector(".p_checkout").addEventListener("click", funcheckoutto)
+function funcheckoutto(){
+    window.location.href="address.html"
+}
+

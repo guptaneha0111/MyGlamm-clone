@@ -121,7 +121,7 @@ cursor: pointer;
 }
 
 .p_checkout:hover{
-    background-color: blue;
+    background-color: #ff9797;
 }
 #cart-close{
     position: absolute;
