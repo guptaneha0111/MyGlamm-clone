@@ -14,9 +14,10 @@ let login_fun=(event)=>{
     }
     console.log(login_data.name1)
     for(let i=0;i<get_user_data.length;i++){
+        // console.log(get_user_data[i].name1===login_data.name1)
         if(get_user_data[i].name1===login_data.name1 && get_user_data[i].password1===login_data.password1){
             alert("Login Sucessfully")
-            return
+            return;
         }
     }
     alert('Invalid username or password');

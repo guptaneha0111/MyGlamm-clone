@@ -2,6 +2,9 @@ import {navbar} from './component/navbar.js';
 import {signup} from './component/signup.js';
 import {login} from './component/login.js';
 
+
+
+
 let login_signup_box=document.getElementById("login_signup_box")
 let login_box=document.getElementById("login_box")
 
@@ -15,7 +18,7 @@ nav_box.innerHTML= navbar();
 //Signup function
 let signup_box=document.getElementById("signup_box")
 signup_box.innerHTML=signup();
-console.log(signup())
+// console.log(signup())
 
 let login_signup_img=document.getElementById("login_signup_img")
 login_signup_img.onclick=()=>{
@@ -51,7 +54,7 @@ function fun(){
 
 signup_box=document.getElementById("signup_box");
 signup_box.onclick=()=>{
-    console.log("work")
+    // console.log("work")
     login_signup_box.style.display="block"
 };
 let cross_symbole=document.getElementById("cross_symbole")
@@ -87,26 +90,45 @@ signup_link_in_login.onclick=()=>{
 }
 
 
-let get_user_data=JSON.parse(localStorage.getItem("user_key"))
+
 // console.log(get_user_data)
 
 let login_fun=(event)=>{
     event.preventDefault()
-    let name=document.getElementById("name").value;
-    let password=document.getElementById("password").value;
+    let get_user_data=JSON.parse(localStorage.getItem("user_key"))
+    let name=document.getElementById("login_name").value;
+    let password=document.getElementById("login_password").value;
 
+    console.log(name,password)
     let login_data={
         name,
         password
     }
-    console.log(login_data.name)
+    // console.log(login_data)
     for(let i=0;i<get_user_data.length;i++){
         if(get_user_data[i].name1===login_data.name && get_user_data[i].password1===login_data.password){
             alert("Login Sucessfully")
+            window.location.href="./index.html"
             return
         }
     }
     alert('Invalid username or password');
+    document.getElementById("login_name").value="";
+    document.getElementById("login_password").value="";
 }
 
 document.querySelector("#login_submit").addEventListener("click",login_fun)
+
+
+
+
+
+// document.getElementById("makeup").addEventListener("mouseover",display_block)
+// function display_block(){
+//     document.getElementById("nav_makeup_div").style.display="block"
+// }
+
+// document.getElementById("makeup").addEventListener("mouseout",display_none)
+// function display_none(){
+//     document.getElementById("nav_makeup_div").style.display="none"
+// }
