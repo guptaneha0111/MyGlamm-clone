@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+}
+#div1{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+#div1>div{
+
+    box-shadow: #FBBDBD 0px -50px 36px -28px inset;
+    width: 20%;
+    padding: 1px 10px;
+    
+    margin-bottom: 20px;
+}
+#div1>div>h2{
+  
+    text-align: center;
+}
+
+#div2{
+    width: 100%;
+}
+#div2>div{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+   
+}
+.img1{
+    width: 100%;
+}
+.text_div{
+    position: relative;
+top: -60px; 
+padding: 20px;
+/* border: 2px solid #FFFFFF; */
+opacity: 0.6;
+background-color: #FFFFFF;
+}
+.text_div>h3{
+align-items: center;
+text-align: center;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+.image_div{
+    width: 100%;
+    margin-bottom: 30px;
+    /* height: 20vh; */
+    /* border: 1px solid red; */
+}
+.image_div>img{
+    width: 100%;
+}
+
+
+
+/* slider */
+.image_div{
+    position: relative;
+}
+#left_btn,#right_btn{
+    position: absolute;
+    top: 50%;
+}
+/* .slider_btn:nth-child(2){ */
+    #left_btn{
+    left: 5%;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+}
+/* .slider_btn:nth-child(3){ */
+#right_btn{
+    right: 5%;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+}
+
+.img_wallet{
+
+    /* padding: 30px; */
+    /* margin: 30px; */
+    /* padding-left: 50px; */
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.text_divv{
+    position: relative;
+top: -100px; 
+padding: 20px;
+/* border: 2px solid #FFFFFF; */
+opacity: 0.6;
+background-color: #FFFFFF;
+}
+.text_divv>h3{
+align-items: center;
+text-align: center;
+margin-bottom: 20px;
+margin-top: 20px;
+color: black;
+}
