@@ -1,5 +1,5 @@
 
-
+//skincare
  url="https://js211nehagupta.herokuapp.com/api/skincare";
 let getdata= async () =>{
     let res= await fetch(url);
@@ -9,7 +9,7 @@ let getdata= async () =>{
 }
 getdata();
 
-
+//moisture
 url1="https://js211nehagupta.herokuapp.com/api/moisture"
 let moisture= async () =>{
     let res1= await fetch(url1);
@@ -18,7 +18,32 @@ let moisture= async () =>{
     console.log("res1:",res1);
 }
 
+//nightcream
+url2="https://js211nehagupta.herokuapp.com/api/nightcream"
+let nightcream= async () =>{
+    let res2= await fetch(url2);
+    res2= await res2.json();
+    appenddata(res2)
+    console.log("res2:",res2);
+}
 
+//eyecream
+url3="https://js211nehagupta.herokuapp.com/api/eyecream"
+let eyecream= async () =>{
+    let res3= await fetch(url3);
+    res3= await res3.json();
+    appenddata(res3)
+    console.log("res3:",res3);
+}
+
+//bodylotion
+let url4="https://js211nehagupta.herokuapp.com/api/bodylotion"
+let bodylotion= async () =>{
+    let res4= await fetch(url4);
+    res4= await res4.json();
+    appenddata(res4)
+    console.log("res4:",res4);
+}
 
 
 let skinproduct=document.getElementById("skin_product");
