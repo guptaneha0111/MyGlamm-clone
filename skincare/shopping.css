@@ -1,4 +1,22 @@
-
+#shop_nav{
+    border: 1px solid black;
+    height: 100px;
+}
+.parent_productmargin{
+   
+        border: 1px solid rgb(201, 195, 195);
+        width: 95%;
+         margin: auto;
+        margin-top: 40px;
+    
+}
+.hr_skinproduct
+{
+    width: 95%;
+    color: rgb(201, 195, 195);
+    margin-top: 50px;
+   
+}
 #mainshop{
     display: flex;
 }
@@ -35,7 +53,7 @@
     box-shadow: -2px solid 4px hsl(0 4% 15% / 100%);
     border: 1px solid black;
     transition: 1.5s;
-    background-color: white;
+    background-color:rgb(248, 241, 241);
 }
 .cartdiv.active{
     right: 0;
@@ -130,4 +148,23 @@ cursor: pointer;
     font-size: 2rem;
     color: black;
     cursor: pointer;
+}
+
+#video_parentdiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border: 1px solid rgb(201, 195, 195);
+    width: 95%;
+     margin: auto;
+    margin-top: 30px;
+}
+
+#watchlearn{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    padding-top: 25px;
+}
+#reveiw_section{
+    margin-left: 25px;
 }
