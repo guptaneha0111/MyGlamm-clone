@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#footer{
+    display: grid;
+    grid-template-columns: repeat(11,1fr);
+    gap: 15px;
+    overflow:visible;
+}
+#footer ul li{
+    list-style: none;  
+}
+#footer ul li a{
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+}
+.footer_heading{
+    color: coral;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+#footer_icon img{
+    margin-top: 25px;
+    width: 22px;
+    gap: 15px;
+   
+}
+#bottom_footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+#bottom_footer #suscribe input{
+    line-height: 30px;
+    width: 350px;
+}
+#suscribe>div{
+    background-color: black;
+}
+#suscribe>p{
+    padding-bottom: 15px;
+}
+#bottom_footer #suscribe button{
+    padding: 9px 18px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+#appStore img{
+    width: 100px;
+    display: inline-block;
+    margin-left: 95px;
+}

@@ -13,15 +13,16 @@
     display: none;
     width: 400px;
     height: 450px;
-    background-color: rgb(161, 63, 63);
+    background-color: white;
     margin-left: 400px;
     margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #signup_box{
     width: 300px;
     height: 350px;
-    background-color: rgb(145, 53, 122);
+    /* background-color: rgb(145, 53, 122); */
     position: relative;
     top: 10px;
     left: 50px;
@@ -37,18 +38,18 @@
 #login_box{
     width: 300px;
     height: 350px;
-    background-color: rgb(145, 53, 122);
+    background-color: rgb(228, 181, 80);
 
     position: relative;
     top: 10px;
     left: 50px;
 }
-input{
-    width: 80%;
+ input{
+    width: 70%;
     line-height: 30px;
     margin-left: 30px;
-    margin-top: 20px;
-}
+     margin-top: 20px;
+ }
 #login_signup{
     position: relative;
     top: 40px;

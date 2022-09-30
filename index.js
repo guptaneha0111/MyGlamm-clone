@@ -122,7 +122,6 @@ document.querySelector("#login_submit").addEventListener("click",login_fun)
 
 
 
-
 // document.getElementById("makeup").addEventListener("mouseover",display_block)
 // function display_block(){
 //     document.getElementById("nav_makeup_div").style.display="block"

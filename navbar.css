@@ -12,16 +12,29 @@
     align-items: center;
 }
 #pick_porduct{
+    display: flex;
+    gap: 12px;
     padding-left: 15px;
 }
+#pick_porduct img{
+    width: 35px;
+    padding-left: 10px;
+}
+#myGlamm_store img{
+    width: 20px;
+    margin-left: 20px;
+}
 #myGlamm_store{
+    display: flex;
+    gap: 12px;
     padding-right: 15px;
+    /* padding-top: 10px; */
 }
 #navbar{
     display: flex;
     justify-content:space-between;
     flex-grow: 5;
-    border-bottom: 2px solid red;
+    /* border-bottom: 2px solid red; */
 }
 #logo_container{
     flex-grow: 2;
@@ -32,11 +45,10 @@
     flex-grow: 8;
     padding: 15px 0px;
     padding-bottom: 10px;
+    /* background-color: darkgray; */
 }
-#search_bar input{
-    width: 550px;
-    line-height: 35px;
-}
+
+
 #login_cart{
     display: flex;
     flex-grow: 1;
@@ -57,7 +69,7 @@
     justify-content: space-between;
 }
 #nav_link li{
-    padding: 0px 20px;
+    padding: 10px 20px;
     text-decoration: none;
     list-style: none;
     color: red;
@@ -70,18 +82,151 @@ a{
 #nav_link{
     margin-left: 50px;
     position: relative;
+    border-bottom: 2px solid rgb(102, 26, 26);
+    margin-right: 50px;
 }
 
+/* makeup  */
 #nav_makeup_div{
     width: 1100px;
     height: 480px;
-    background-color: darkgray;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     display: none; 
     position: absolute;
-    top: 15px;
+    top: 40px;
     left: 25px;
+   
+}
+#nav_makeup_div div{
+    display: flex;
 }
 #makeup:hover #nav_makeup_div{
     display: block;
 }
 
+#faces ul,#lips ul,#eyes ul,#nails ul{
+    display: block;
+    line-height: 20px;
+}
+
+/* haircare */
+#nav_hair_div{
+    width: 1100px;
+    height: 480px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: none; 
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    overflow: hidden;
+   
+}
+#nav_hair_div div{
+    display: flex;
+    gap: 20px;
+}
+#hair_care:hover #nav_hair_div{
+    display: block;
+}
+#nav_hair_image img{
+    width: 100%;
+    margin-top: 10px;   
+}
+#nav_hair_image div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 50px;
+    
+}
+#hair ul{
+    display: block;
+    line-height: 25px;
+}
+/* skin care */
+#nav_skin_div{
+    width: 1100px;
+    height: 480px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: none; 
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    overflow: hidden;
+}
+#nav_skin_div div{
+    display: flex;
+    gap: 20px;
+}
+#skin_care:hover #nav_skin_div{
+    display: block;
+}
+#skin ul{
+    display: block;
+    line-height: 35px;
+}
+/* sanatizing */
+#nav_sanitizing_div{
+    width: 1100px;
+    height: 480px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: none; 
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    overflow: hidden;
+}
+#nav_sanitizing_div div{
+    display: flex;
+    gap: 20px;
+}
+#sanitizing:hover #nav_sanitizing_div{
+    display: block;
+}
+#sanitizer ul{
+    display: block;
+    line-height: 35px;
+}
+/* collection */
+#nav_collection_div{
+    width: 1100px;
+    height: 480px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: none; 
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    overflow: hidden;
+   
+}
+#nav_collection_div div{
+    display: flex;
+    gap: 5px;
+}
+ #collection:hover #nav_collection_div{
+    display: block;
+}
+
+ #nav_collection_image img{
+    width: 100%;
+    margin-top: 10px;
+   
+    
+}
+#nav_collection_image div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left: 10px;
+    
+}
+#collect ul{
+    display: block;
+    line-height: 30px;
+} 
