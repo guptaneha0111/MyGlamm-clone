@@ -1,0 +1,27 @@
+#hairnav{
+    border: 1px solid black;
+    height: 100px;
+}
+#haircare1{
+    font-family: din-2014, sans-serif ; 
+    font-size: 48px;
+    text-align: center;
+  
+  }
+  
+  
+  #hair_product{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 10px;
+  margin-top: 50px;
+  border: 1px slod grey;
+  }
+  
+  
+  #hair_product img{
+      width: 50%;
+     padding-left: 60px;
+     padding-top: 20px;
+  }
+  

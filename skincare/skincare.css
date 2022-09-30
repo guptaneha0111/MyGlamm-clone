@@ -1,0 +1,45 @@
+#skinnav{
+    border: 1px solid black;
+    height: 100px;
+}
+
+#skincareh1{
+  font-family: din-2014, sans-serif ; 
+  font-size: 48px;
+  text-align: center;
+
+}
+
+
+#skin_product{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+margin-top: 50px;
+border: 1px slod grey;
+}
+
+
+#skin_product img{
+    width: 50%;
+   padding-left: 60px;
+   padding-top: 20px;
+}
+#home_skin{
+    text-align: center;
+}
+.parent_productmargin{
+   
+    border: 1px solid rgb(177, 159, 159);
+    width: 95%;
+     margin: auto;
+    margin-top: 40px;
+
+}
+.hr_skinproduct
+{
+width: 95%;
+color: rgb(228, 225, 225);
+margin-top: 20px;
+
+}

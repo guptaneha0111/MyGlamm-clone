@@ -1,0 +1,269 @@
+
+#address_nav{
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+#myglam_add{
+margin-left: -150px;
+width: 15%;
+height: 60px;
+margin-top: 10px;
+}
+#address_h1{
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+#icon_add{
+    margin-right: -210px;
+   height: 20px;
+   margin-top: 40px;
+}
+#add_h3{
+    margin-top: 30px;
+}
+#add_parent{
+    border: 1px solid rgb(201, 195, 195);
+    width: 95%;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+}
+.search_select{
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+.select2{
+    height: 42px;
+    --font-size-xl: 16px;
+    border-radius: 4px;
+    padding: 0 8px 0 12px;
+    border: 1px solid #a6b0b3;
+    width: 160%;
+    margin-top: 20px;
+}
+/* input */
+/* name */
+#user_add_name{
+    border: 2px solid  rgb(173, 172, 172);
+    border-radius: 5px;
+    outline: none;
+margin-left: 40px;
+padding: 10px;
+width: 30%;
+}
+.form_label_add{
+position: absolute;
+
+left: 2.8rem;
+cursor: text;
+margin-top: 10px;
+
+}
+
+#user_add_name:focus {
+    outline: 3px solid #80bdff;
+    border: 1px solid #a1a6af;
+}
+#user_add_name:focus ~ .form_label_add, 
+#user_add_name:not(:placeholder-shown)#user_add_name:not(:focus)~ .form_label_add{
+    margin-top: -13px;
+    left: 6.4rem;
+    font-size: 16px;
+    background-color:white;
+}
+.contact_add{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+/* phone */
+#user_add_mbl{
+    border: 2px solid  rgb(173, 172, 172);
+    border-radius: 5px;
+    outline: none;
+margin-left: 40px;
+padding: 10px;
+width: 30%;
+
+}
+.form_label_mbl{
+    position: absolute;
+
+    left: 2.8rem;
+    cursor: text;
+    margin-top: 10px;
+}
+#user_add_mbl:focus {
+    outline: 3px solid #80bdff;
+    border: 1px solid #a1a6af;
+}
+#user_add_mbl:focus ~ .form_label_mbl, 
+#user_add_mbl:not(:placeholder-shown)#user_add_mbl:not(:focus)~ .form_label_mbl{
+    margin-top: -13px;
+    left: 33.0rem;
+    font-size: 16px;
+    background-color:white;
+}
+/* 
+pin */
+
+#pin_add{
+    border: 2px solid  rgb(173, 172, 172);
+    border-radius: 5px;
+    outline: none;
+margin-left: 40px;
+padding: 10px;
+width: 30%;
+}
+.form_label_pin{
+position: absolute;
+
+left: 2.8rem;
+cursor: text;
+margin-top: 10px;
+
+}
+
+#pin_add:focus {
+    outline: 3px solid #80bdff;
+    border: 1px solid #a1a6af;
+}
+#pin_add:focus ~ .form_label_pin, 
+#pin_add:not(:placeholder-shown)#pin_add:not(:focus)~ .form_label_pin{
+    margin-top: -13px;
+    left: 33rem;
+    font-size: 16px;
+    background-color:white;
+}
+
+/* city */
+
+#city_add{
+    border: 2px solid  rgb(173, 172, 172);
+    border-radius: 5px;
+    outline: none;
+margin-left: 40px;
+padding: 10px;
+width: 30%;
+}
+.form_label_city{
+position: absolute;
+
+left: 2.8rem;
+cursor: text;
+margin-top: 10px;
+
+}
+
+#city_add:focus {
+    outline: 3px solid #80bdff;
+    border: 1px solid #a1a6af;
+}
+#city_add:focus ~ .form_label_city, 
+#city_add:not(:placeholder-shown)#city_add:not(:focus)~ .form_label_city{
+    margin-top: -13px;
+    left: 6.4rem;
+    font-size: 16px;
+    background-color:white;
+}
+
+/* address */
+
+#address_add{
+    border: 2px solid  rgb(173, 172, 172);
+    border-radius: 5px;
+    outline: none;
+margin-left: 40px;
+padding: 10px;
+width: 25%;
+}
+.form_label_address{
+position: absolute;
+
+left: 2.8rem;
+cursor: text;
+margin-top: 10px;
+
+}
+
+#address_add:focus {
+    outline: 3px solid #80bdff;
+    border: 1px solid #a1a6af;
+}
+#address_add:focus ~ .form_label_address, 
+#address_add:not(:placeholder-shown)#address_add:not(:focus)~ .form_label_address{
+    margin-top: -13px;
+    left: 60rem;
+    font-size: 16px;
+    background-color:white;
+}
+
+#type_add{
+    margin-left: 40px;
+    border-radius: 5px;
+    width: 30%;
+    height: 50px;
+    border: 2px solid  rgb(173, 172, 172);
+    padding-left: 15px;
+}
+
+
+#ype_add:focus {
+    outline: 3px solid #80bdff;
+    border: 1px solid #a1a6af;
+}
+#back_add{
+    margin-left: 40px;
+    border: 1px solid #ff9797;
+    color: #ff9797;
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 5px;
+    width: 10%;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    
+}
+#back_add:hover{
+    background-color: #ff9797;
+    color: white;
+}
+#ship_payment{
+    margin-left: 800px;
+    border: 1px solid #ff9797;
+    color: #ff9797;
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 5px;
+    width: 20%;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#ship_payment:hover{
+    background-color: #ff9797;
+    color: white;
+}
+#bottomglam{
+    text-align: center;
+}
+#myglam_add1{
+    margin-left: -150px;
+    width: 15%;
+    height: 60px;
+    margin-top: 10px;
+    }
+    
