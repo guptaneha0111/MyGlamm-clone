@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+#footer_section{
+    margin-top: 195px;
+}
 #footer{
     display: grid;
     grid-template-columns: repeat(11,1fr);
@@ -22,11 +25,21 @@
     font-weight: 600;
     padding-bottom: 10px;
 }
+#footer_icon{
+    margin-top: 35px;
+    display: flex;
+    gap: 10px; 
+}
 #footer_icon img{
-    margin-top: 25px;
+    /* margin-top: 25px; */
     width: 22px;
-    gap: 15px;
+    height: 25px;
+    
    
+}
+#footer_icon span{
+    border-left: 2px;
+    height: 10px;
 }
 #bottom_footer{
     display: flex;

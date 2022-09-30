@@ -1,6 +1,7 @@
 function navbar(){
     return `
         <!-- Navbar -->
+        <div id="nav_box">
         <div id="top_nav">
             <div id="pick_porduct">
                 <span><img src="../image/icon/gift-box.png"></span>
@@ -20,11 +21,12 @@ function navbar(){
             </div>
             <div id="search_bar">
                 <form action="">
-                    
-                    <input type="text" name="" id="" placeholder="Find Lipstick,Eyeliner,Makeup Tutorial,etc">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                    <input type="text" name="" id="search_bar_input" placeholder="Find Lipstick,Eyeliner,Makeup Tutorial,etc">
                 </form>
             </div>
             <div id="login_cart">
+                <div id="signup_user_name"></div>
                 <div id="login_signup_img"><img src="./image/icon/user.png" alt=""></div>
                 <div id="bag_cart"><img src="./image/icon/shopping-bag.png" alt=""></div>
             </div>
@@ -235,7 +237,7 @@ function navbar(){
             </ul>
             
         </div>
-        
+        </div>
     `
 }
 

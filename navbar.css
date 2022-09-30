@@ -3,6 +3,13 @@
     padding: 0px;
     box-sizing: border-box;
 }
+#nav_box{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    margin-bottom: 200px;
+    
+}
 #top_nav{
     width: 100%;
     height: 50px;
@@ -34,6 +41,9 @@
     display: flex;
     justify-content:space-between;
     flex-grow: 5;
+    background-color: white;
+    /* position: fixed; */
+
     /* border-bottom: 2px solid red; */
 }
 #logo_container{
@@ -47,7 +57,26 @@
     padding-bottom: 10px;
     /* background-color: darkgray; */
 }
-
+#search_bar input{
+    width: 60%;
+    margin-top: 15px;
+    line-height: 35px;
+    border-left: none;
+    outline-width: none;
+    background-color: #eee;
+    
+}
+#search_bar button{
+    width: 5%;
+    padding: 10px;
+    border-right: none;
+    transform: translateX(4px);
+    /* transform: translateY(0.5px); */
+}
+      
+#search_bar_input:focus {
+    outline: none;
+  }
 
 #login_cart{
     display: flex;
@@ -64,6 +93,14 @@
 #bag_cart img,#login_signup_img img{
     width: 25px;
 }
+#nav_link{
+    /* margin-left: 50px; */
+    position: relative;
+    border-bottom: 2px solid rgb(102, 26, 26);
+    /* margin-right: 50px; */
+    background-color: white;
+    
+}
 #nav_link ul{
     display: flex;
     justify-content: space-between;
@@ -79,12 +116,7 @@ a{
     text-decoration: none;
     color: black
 }
-#nav_link{
-    margin-left: 50px;
-    position: relative;
-    border-bottom: 2px solid rgb(102, 26, 26);
-    margin-right: 50px;
-}
+
 
 /* makeup  */
 #nav_makeup_div{
@@ -95,6 +127,7 @@ a{
     position: absolute;
     top: 40px;
     left: 25px;
+    background-color: #FEE8E8;
    
 }
 #nav_makeup_div div{
@@ -119,6 +152,7 @@ a{
     top: 40px;
     left: 25px;
     overflow: hidden;
+    background-color: #FEE8E8;
    
 }
 #nav_hair_div div{
@@ -155,7 +189,9 @@ a{
     position: absolute;
     top: 40px;
     left: 25px;
+    z-index: 999;
     overflow: hidden;
+    background-color: #FEE8E8;
 }
 #nav_skin_div div{
     display: flex;
@@ -178,6 +214,7 @@ a{
     top: 40px;
     left: 25px;
     overflow: hidden;
+    background-color: #FEE8E8;
 }
 #nav_sanitizing_div div{
     display: flex;
@@ -200,6 +237,7 @@ a{
     top: 40px;
     left: 25px;
     overflow: hidden;
+    background-color: #FEE8E8;
    
 }
 #nav_collection_div div{
