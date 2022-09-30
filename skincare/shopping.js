@@ -49,7 +49,14 @@ function appenddata1(data)
    desc.innerText=data.description;
 
    let price1=document.createElement("p");
-   price1.innerText=data.price;
+   price1.innerText=`$ ${data.price}`;
+
+   let star=document.createElement("p");
+   star.innerText=`${data.star} ⭐`;
+
+   rating=document.createElement("p");
+   rating.innerText=`${data.rating} Ratings `
+ 
 
    let cartbtn=document.createElement("button");
    cartbtn.innerText="ADD TO BAG";
@@ -58,7 +65,7 @@ function appenddata1(data)
    })
 
    imgdiv.append(image1);
-   txtdiv.append(name,desc,price1,cartbtn)
+   txtdiv.append(name,desc,price1,star,rating,cartbtn)
    cdiv.append(imgdiv,txtdiv);
    shoppingobj.append(cdiv);
  
@@ -139,4 +146,18 @@ let checkout_address=document.querySelector(".p_checkout").addEventListener("cli
 function funcheckoutto(){
     window.location.href="address.html"
 }
+
+
+//video
+let videoproduct=document.getElementById("video_product");
+ let video_div=document.createElement("div")
+  let frame=document.createElement("iframe");
+   frame.src="https://www.youtube.com/embed/CdW2iU3Wigw";
+   frame.width='100%';
+   frame.height='400px';
+   frame.allow='fullscreen';
+
+   video_div.append(frame);
+   videoproduct.append(video_div);
+   
 

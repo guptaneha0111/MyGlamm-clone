@@ -77,10 +77,16 @@ data.forEach(function (el)
    desc.innerText=el.description;
 
    let price=document.createElement("p");
-   price.innerText=el.price;
+   price.innerText=`$ ${el.price}`;
+
+   let star=document.createElement("p");
+   star.innerText=`${el.star} ⭐`;
+
+   rating=document.createElement("p");
+   rating.innerText=`${el.rating} Ratings `
  
    imgdiv.append(image)
-  txtdiv.append(name,desc,price);
+  txtdiv.append(name,desc,price,star,rating);
   cdiv.append(imgdiv,txtdiv)
   skinproduct.append(cdiv);
 
