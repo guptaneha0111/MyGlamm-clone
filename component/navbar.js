@@ -4,12 +4,12 @@ function navbar(){
         <div id="nav_box">
         <div id="top_nav">
             <div id="pick_porduct">
-                <span><img src="../image/icon/gift-box.png"></span>
+                <span><img src="image/icon/gift-box.png"></span>
                 <span>Pick any product at Rs 199</span>
                 <span>Shop Now</span>
             </div>
             <div id="myGlamm_store">
-                <span><img src="../image/icon/shop.png"></span>
+                <span><img src="image/icon/shop.png"></span>
                 <span>MyGlamm Store</span>
             </div>
         </div>
