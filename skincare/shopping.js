@@ -41,6 +41,7 @@ function appenddata1(data)
 
     let image1=document.createElement("img");
     image1.src=data.image;
+    image1.setAttribute("id", "imgdiv123")
     
    let name=document.createElement("h3");
    name.innerText=data.title;
