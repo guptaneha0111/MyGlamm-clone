@@ -1,6 +1,9 @@
+import {navbar} from '../component/navbar.js';
+document.getElementById("nav_box").innerHTML=navbar()
+
 
 //skincare
- url="https://js211nehagupta.herokuapp.com/api/skincare";
+let url="https://js211nehagupta.herokuapp.com/api/skincare";
 let getdata= async () =>{
     let res= await fetch(url);
     res= await res.json();
@@ -10,8 +13,9 @@ let getdata= async () =>{
 getdata();
 
 //moisture
-url1="https://js211nehagupta.herokuapp.com/api/moisture"
-let moisture= async () =>{
+let url1="https://js211nehagupta.herokuapp.com/api/moisture"
+let moistr=document.getElementById("mois").addEventListener("click", moisture)
+async function moisture(){
     let res1= await fetch(url1);
     res1= await res1.json();
     appenddata(res1)
@@ -19,8 +23,9 @@ let moisture= async () =>{
 }
 
 //nightcream
-url2="https://js211nehagupta.herokuapp.com/api/nightcream"
-let nightcream= async () =>{
+let url2="https://js211nehagupta.herokuapp.com/api/nightcream"
+let nigh=document.getElementById("night").addEventListener("click", nightcream)
+async function nightcream(){
     let res2= await fetch(url2);
     res2= await res2.json();
     appenddata(res2)
@@ -28,8 +33,9 @@ let nightcream= async () =>{
 }
 
 //eyecream
-url3="https://js211nehagupta.herokuapp.com/api/eyecream"
-let eyecream= async () =>{
+let url3="https://js211nehagupta.herokuapp.com/api/eyecream"
+let eye=document.getElementById("eye").addEventListener("click", eyecream)
+async function eyecream(){
     let res3= await fetch(url3);
     res3= await res3.json();
     appenddata(res3)
@@ -38,7 +44,8 @@ let eyecream= async () =>{
 
 //bodylotion
 let url4="https://js211nehagupta.herokuapp.com/api/bodylotion"
-let bodylotion= async () =>{
+let lotion=document.getElementById("lotion").addEventListener("click", bodylotion)
+async function bodylotion(){
     let res4= await fetch(url4);
     res4= await res4.json();
     appenddata(res4)
@@ -75,6 +82,7 @@ data.forEach(function (el)
 
    let desc=document.createElement("h3");
    desc.innerText=el.description;
+   desc.setAttribute("id", "descdiv");
 
    let price=document.createElement("p");
    price.innerText=`$ ${el.price}`;
@@ -82,7 +90,7 @@ data.forEach(function (el)
    let star=document.createElement("p");
    star.innerText=`${el.star} ⭐`;
 
-   rating=document.createElement("p");
+   let rating=document.createElement("p");
    rating.innerText=`${el.rating} Ratings `
  
    imgdiv.append(image)

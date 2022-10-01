@@ -168,3 +168,17 @@ cursor: pointer;
 #reveiw_section{
     margin-left: 25px;
 }
+
+#cart_icon{
+    border: 1px solid red;
+    
+}
+
+#imgdiv123{
+    border: 1px solid red;
+}
+#txtdiv1{
+    border: 1px solid red; 
+    /* margin-left: 0rem; */
+    padding-left: 3rem;
+}
