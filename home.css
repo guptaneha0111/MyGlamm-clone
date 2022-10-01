@@ -16,7 +16,38 @@ body{
     align-items: center;
     text-align: center;
     flex-direction: column;
+    /* margin-top: 200px; */
+
 }
+
+#div11{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+#div11>div{
+
+    box-shadow: #FBBDBD 0px -50px 36px -28px inset;
+    width: 20%;
+    padding: 1px 10px;
+    
+    margin-bottom: 20px;
+}
+#div11>div>h2{
+  
+    text-align: center;
+}
+
+
+
+
+
+
 #div1>div{
 
     box-shadow: #FBBDBD 0px -50px 36px -28px inset;
@@ -31,8 +62,14 @@ body{
 }
 
 #div2{
+    /* margin-top: 150px; */
     width: 100%;
+
+    position: relative;
+    z-index: -9999;
 }
+
+
 #div2>div{
     display: flex;
     width: 100%;
@@ -44,7 +81,7 @@ body{
 }
 .text_div{
     position: relative;
-top: -60px; 
+top: -100px; 
 padding: 20px;
 /* border: 2px solid #FFFFFF; */
 opacity: 0.6;
@@ -58,9 +95,10 @@ margin-top: 20px;
 }
 .image_div{
     width: 100%;
-    margin-bottom: 30px;
-    /* height: 20vh; */
-    /* border: 1px solid red; */
+    margin-bottom: 10px;
+
+     /* position: relative;
+    z-index: -9999; */
 }
 .image_div>img{
     width: 100%;
@@ -150,9 +188,13 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    /* border-radius: 20px; */
+    padding-bottom: 5px;
+
     box-sizing: border-box;
     margin: 20px 10px;
     transition: 1s;
+    /* border-radius: 20px; */
 
     /* border: 1px solid rgb(0, 0, 0); */
 
@@ -183,10 +225,6 @@ a{
     border-color: #FFFFFF;
     background-color: #FFFFFF;
 }
-.details p,h3,h2{
-    /* font-family: ; */
-
-}
 
 .rating{
     display: flex;
@@ -197,14 +235,14 @@ a{
 .containerm{
     display: flex;
     justify-content: center;
-    /* justify-content: space-between; */
-    /* border: 1px solid red; */
-    /* height: 40vh; */
+
     background: #FEE8E8;
     align-items: center;
     text-align: center;
-    /* width: 90%; */
-    /* padding-left: 40px; */
+
+
+    /* position: relative;
+    z-index: -9999; */
 }
 
 .div1{
@@ -239,6 +277,9 @@ a{
     gap: 30px;
     flex-direction: column;
    /* border: 1px solid blue; */
+
+       /* position: relative; 
+ z-index: -99 */
 }
 .sort_vedio>div>img{
 width: 90%;
@@ -249,20 +290,25 @@ height: 40vh;
 .icon{
     display: flex;
     justify-content: center;
-    /* align-items: center;
-    text-align: center; */
     position: relative;
     top: -150px;
-    /* background-color:white ; */
-    /* width: 20px; */
-    /* width: 100%; */
+    cursor: pointer;
+
+    /* position: relative; */
+    /* z-index: -99; */
 }
 .fa-instagram{
-    width: 15px;
+    width: 25px;
     background-color: #ebdbdb;
     opacity: 0.6;
-    padding: 10px;
+    padding: 10px 15px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+  
+
+        /* position: relative;  */
+    /* z-index: -99;  */
 }
 .fal{
     width: 100%;
