@@ -5,9 +5,9 @@
 }
 #nav_box{
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     top: 0px;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
     
 }
 #top_nav{
