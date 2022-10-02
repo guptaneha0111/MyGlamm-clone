@@ -33,7 +33,7 @@ function navbar(){
         </div>
         <div id="nav_link">
             <ul>
-                <li><a href="#" >HOME</a></li>
+                <li><a href="index.html" >HOME</a></li>
                 <li id="makeup"> <a href="#">MAKEUP
                     <div id="nav_makeup_div">
                         <div>
@@ -138,7 +138,7 @@ function navbar(){
                     </div>
                     </a>
                 </li>
-                <li id="skin_care"> <a href="#" id="skincarediv1234">SKIN CARE
+                <li id="skin_care"> <a href="../bewildered-head-3884/skincare/skincare.html" id="skincarediv1234">SKIN CARE
                     <div id="nav_skin_div">
                         <div>
                             <div id="skin">
