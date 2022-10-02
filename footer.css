@@ -43,6 +43,7 @@
 }
 #bottom_footer{
     display: flex;
+    
     justify-content: space-between;
     width: 90%;
     margin: auto;
@@ -54,6 +55,7 @@
 }
 #suscribe>div{
     background-color: black;
+    display: flex;
 }
 #suscribe>p{
     padding-bottom: 15px;
@@ -63,6 +65,9 @@
     border: none;
     background-color: black;
     color: white;
+}
+#appStore{
+    display: flex;
 }
 #appStore img{
     width: 100px;
