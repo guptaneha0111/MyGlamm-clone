@@ -33,7 +33,7 @@ function navbar(){
         </div>
         <div id="nav_link">
             <ul>
-                <li><a href="#" >HOME</a></li>
+                <li><a href="index.html" >HOME</a></li>
                 <li id="makeup"> <a href="#">MAKEUP
                     <div id="nav_makeup_div">
                         <div>
