@@ -128,6 +128,7 @@ a{
     top: 40px;
     left: 25px;
     background-color: #FEE8E8;
+    z-index: 23333;
    
 }
 #nav_makeup_div div{
@@ -153,6 +154,7 @@ a{
     left: 25px;
     overflow: hidden;
     background-color: #FEE8E8;
+    z-index: 23333;
    
 }
 #nav_hair_div div{
@@ -215,6 +217,7 @@ a{
     left: 25px;
     overflow: hidden;
     background-color: #FEE8E8;
+    z-index: 3333;
 }
 #nav_sanitizing_div div{
     display: flex;
@@ -238,6 +241,8 @@ a{
     left: 25px;
     overflow: hidden;
     background-color: #FEE8E8;
+    z-index: 3333;
+
    
 }
 #nav_collection_div div{
