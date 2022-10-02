@@ -138,16 +138,16 @@ function navbar(){
                     </div>
                     </a>
                 </li>
-                <li id="skin_care"> <a href="#">SKIN CARE
+                <li id="skin_care"> <a href="#" id="skincarediv1234">SKIN CARE
                     <div id="nav_skin_div">
                         <div>
                             <div id="skin">
                             <ul>
                                 <li>HAIR CARE</li>
-                                <li><a href="#" >Moisturizer</a></li>
-                                <li><a href="#" >Nigh Cream</a></li>
-                                <li><a href="#" >Eye Cream</a></li>
-                                <li><a href="#" >Body Lotion</a></li>
+                                <li><a href="#" id="mois">Moisturizer</a></li>
+                                <li><a href="#" id="night">Nigh Cream</a></li>
+                                <li><a href="#" id="eye">Eye Cream</a></li>
+                                <li><a href="#" id="bodylotionh1">Body Lotion</a></li>
                                 <li><a href="#" >Serum</a></li>
                                 <li><a href="#" >Sunscreen</a></li>
                                 <li><a href="#" >Skincare Kits</a></li>
