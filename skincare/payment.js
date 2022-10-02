@@ -17,5 +17,5 @@ alert("Please Fill All The Details");
 }
 
 function redirect(){
-    location.href="shopping.html";
+    location.href="skincare.html";
 }
