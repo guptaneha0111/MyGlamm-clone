@@ -44,7 +44,7 @@ async function eyecream(){
 
 //bodylotion
 let url4="https://js211nehagupta.herokuapp.com/api/bodylotion"
-let lotion=document.getElementById("lotion").addEventListener("click", bodylotion)
+let lotion=document.getElementById("bodylotionh1").addEventListener("click", bodylotion)
 async function bodylotion(){
     let res4= await fetch(url4);
     res4= await res4.json();
@@ -107,5 +107,9 @@ localStorage.setItem("addproduct",JSON.stringify(cdiv));
 location.href="shopping.html";
 }
 
-
+//onclick skin care
+document.getElementById('skincarediv1234').addEventListener("click", skincarefun)
+function skincarefun(){
+window.location.href="skincare.html"
+}
 

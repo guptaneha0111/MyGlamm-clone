@@ -1,21 +1,48 @@
-#shop_nav{
+/* #shop_nav{
     border: 1px solid black;
     height: 100px;
+} */
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+#skincareh1{
+  font-family: din-2014, sans-serif ; 
+  font-size: 30px;
+  text-align: center;
+margin-top: 30px;
+}
+#div_h2skinncare{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+#skincare_div{
+    box-shadow: #FBBDBD 0px -50px 36px -28px inset;
+    width: 20%;
+    padding: 1px 10px;
+    text-align: center;
+}
+
 .parent_productmargin{
    
         border: 1px solid rgb(201, 195, 195);
         width: 95%;
          margin: auto;
-        margin-top: 40px;
+        margin-top: 30px;
     
 }
 .hr_skinproduct
 {
     width: 95%;
     color: rgb(201, 195, 195);
+    margin: auto;
     margin-top: 50px;
    
+}
+.hrskincareproduct1234{
+    margin-bottom: -130px;
 }
 #mainshop{
     display: flex;
@@ -170,7 +197,7 @@ cursor: pointer;
 }
 
 #cart_icon{
-    border: 1px solid red;
+    border: 1px solid  red;
     
 }
 
@@ -182,3 +209,20 @@ cursor: pointer;
     /* margin-left: 0rem; */
     padding-left: 3rem;
 }
+
+#addtobagbtn{
+   
+     
+        margin-top: 1rem;
+        padding: 12px 20px;
+        border: none;
+        background-color: black;
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+    cursor: pointer;
+}
+    
+    #addtobagbtn:hover{
+        background-color: #ff9797;
+    }
