@@ -179,6 +179,9 @@ left_btn.addEventListener("click",()=>{
 
 
 
-
+document.getElementById('skincarediv1234').addEventListener("click", skincarefun)
+function skincarefun(){
+window.location.href="skincare.html"
+}
 
 
