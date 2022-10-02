@@ -47,9 +47,11 @@ function appenddata1(data)
     image1.setAttribute("id", "imgdiv123")
     
    let name=document.createElement("h3");
+   name.setAttribute("id", "name123")
    name.innerText=data.title;
 
    let desc=document.createElement("h3");
+   desc.setAttribute("id", "desc123")
    desc.innerText=data.description;
 
    let price1=document.createElement("p");

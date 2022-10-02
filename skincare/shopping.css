@@ -27,7 +27,7 @@ margin-top: 30px;
 
 .parent_productmargin{
    
-        border: 1px solid rgb(201, 195, 195);
+        /* border: 1px solid rgb(201, 195, 195); */
         width: 95%;
          margin: auto;
         margin-top: 30px;
@@ -50,6 +50,9 @@ margin-top: 30px;
 
 #shopping_obj img{
     width: 50%;
+}
+#shopping_obj{
+    margin-top: 20px;
 }
 
 #skinnav{
@@ -180,7 +183,7 @@ cursor: pointer;
 #video_parentdiv{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    border: 1px solid rgb(201, 195, 195);
+    /* border: 1px solid rgb(201, 195, 195); */
     width: 95%;
      margin: auto;
     margin-top: 30px;
@@ -197,15 +200,15 @@ cursor: pointer;
 }
 
 #cart_icon{
-    border: 1px solid  red;
+    /* border: 1px solid  red; */
     
 }
 
 #imgdiv123{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 #txtdiv1{
-    border: 1px solid red; 
+    /* border: 1px solid red;  */
     /* margin-left: 0rem; */
     padding-left: 3rem;
 }
