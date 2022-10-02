@@ -1,3 +1,6 @@
+// import {navbar} from '../component/navbar.js';
+// document.getElementById("nav_box").innerHTML=navbar()
+
 // open and close cartdiv
 
 let carticon=document.querySelector("#cart_icon");
@@ -60,6 +63,7 @@ function appenddata1(data)
  
 
    let cartbtn=document.createElement("button");
+   cartbtn.setAttribute("id", "addtobagbtn")
    cartbtn.innerText="ADD TO BAG";
    cartbtn.addEventListener("click", function(){
     addtocart(data);
@@ -160,5 +164,11 @@ let videoproduct=document.getElementById("video_product");
 
    video_div.append(frame);
    videoproduct.append(video_div);
+
+
+   document.getElementById('skincarediv1234').addEventListener("click", skincarefun)
+function skincarefun(){
+window.location.href="skincare.html"
+}
    
 

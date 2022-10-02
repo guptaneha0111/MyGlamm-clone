@@ -19,7 +19,7 @@ margin-top: 30px;
     grid-template-columns: repeat(3,1fr);
     gap: 2rem 2rem;
 margin-top: 100px;
-
+margin-bottom:-100px;
 }
 
 
@@ -65,4 +65,21 @@ margin-top: 20px;
 }
 /* #descdiv{
     color: #FFFFFF;
+} */
+
+#div_h2skinncare{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+#skincare_div{
+    box-shadow: #FBBDBD 0px -50px 36px -28px inset;
+    width: 20%;
+    padding: 1px 10px;
+    text-align: center;
+}
+/* #footer_section{
+    margin-top: -250px;
 } */

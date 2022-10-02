@@ -98,3 +98,5 @@ left_btn.addEventListener("click",()=>{
 //     slider.play(); 
 //     slider.pause();    
 //   });
+
+
